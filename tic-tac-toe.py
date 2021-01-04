@@ -5,9 +5,9 @@ from pygame.locals import *
 import math
 import sys
 pygame.init()
-icon = pygame.image.load("tic-tac-toe.png")
-ximg = pygame.image.load("x.png")
-oimg = pygame.image.load("o.png")
+icon = pygame.image.load("\\images\\tic-tac-toe.png")
+ximg = pygame.image.load("\\images\\x.png")
+oimg = pygame.image.load("\\images\\o.png")
 font = pygame.font.SysFont("comicsansms",72)
 font2 = pygame.font.SysFont("comicsansms",32)
 available = pygame.font.get_fonts()
@@ -55,7 +55,7 @@ screen = pygame.display.set_mode((601,601))
 pygame.display.set_caption("tic tac toe - manas")
 pygame.display.set_allow_screensaver(True)
 pygame.display.set_icon(icon)
-board = pygame.image.load("background.png")
+board = pygame.image.load("\\images\\background.png")
 
 clock = pygame.time.Clock()
 
